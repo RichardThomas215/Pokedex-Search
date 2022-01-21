@@ -45,6 +45,7 @@ export default function HomePage(){
             setLoading(false);
             setError(true);
             setErrorMsg('Pokemon not found.')
+            console.log(err.name)
          }
        }, 1500);
    }
